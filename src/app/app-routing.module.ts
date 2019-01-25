@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PropietarioListComponent } from './propietario/propietario-list/propietario-list.component';
 import { PropietarioFormComponent } from './propietario/propietario-form/propietario-form.component';
-import { PropietarioShowComponent } from './propietario-show/propietario-show.component';
+import { PropietarioShowComponent } from './propietario/propietario-show/propietario-show.component';
 
 const routes: Routes = [
   { path: 'propietarios', component: PropietarioListComponent },

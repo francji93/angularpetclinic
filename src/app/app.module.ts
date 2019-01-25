@@ -20,7 +20,7 @@ import { registerLocaleData } from '@angular/common';
 import localeEs from '@angular/common/locales/es';
 import { PropietarioFormComponent } from './propietario/propietario-form/propietario-form.component';
 import { FormsModule } from '@angular/forms';
-import { PropietarioShowComponent } from './propietario-show/propietario-show.component';
+import { PropietarioShowComponent } from './propietario/propietario-show/propietario-show.component';
 
 registerLocaleData(localeEs, 'es');
 

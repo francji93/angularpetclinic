@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { PropietarioService } from '../core/service/propietario.service';
-import { Owner } from '../shared/models/propietario';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
+import { Owner } from 'src/app/shared/models/propietario';
+import { PropietarioService } from 'src/app/core/service/propietario.service';
 
 @Component({
   selector: 'pcli-propietario-show',

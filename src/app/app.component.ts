@@ -19,7 +19,6 @@ export class AppComponent {
   ) {
 
 this.translate.onLangChange.subscribe(event => {
-  moment.locale(event.lang);
   this.dateAdapter.setLocale(event.lang);
   });
     this.dateAdapter.setLocale(environment.defaultLang);
