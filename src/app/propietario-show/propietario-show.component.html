@@ -1,0 +1,58 @@
+<div *ngIf="propietario">
+    <h2>FICHA PROPIETARIO</h2>
+
+    <ul>
+
+        <li>
+            <strong>{{
+                'OWNER.FIRSTNAME' | translate }}</strong>
+            <br>
+            <span>{{ propietario?.firstName }}</span>
+        </li>
+
+        <li>
+            <strong>{{
+                'OWNER.LASTNAME' | translate }}</strong>
+            <br>
+            <span>{{ propietario?.lastName }}</span>
+        </li>
+
+        <li>
+            <strong>{{
+                'OWNER.ADDRESS' | translate }}</strong>
+            <br>
+            <span>{{ propietario?.address }}</span>
+        </li>
+
+        <li>
+            <strong>{{
+                'OWNER.CITY' | translate }}</strong>
+            <br>
+            <span>{{ propietario?.city }}</span>
+        </li>
+
+        <li>
+            <strong>{{
+                'OWNER.TELEPHONE' | translate }}</strong>
+            <br>
+            <span>{{ propietario?.telephone }}</span>
+        </li>
+
+
+        <li>
+            <strong>{{
+                'OWNER.BIRTHDAY' | translate }}</strong>
+            <br>
+            <span>{{ propietario?.birthDay }}</span>
+        </li>
+
+    </ul>
+
+    <button type="button" mat-raised-button color="primary" (click)="deleteItem(propietario?.id)">{{
+        'DELETE' | translate }}
+    </button>
+</div>
+<div *ngIf="!propietario">
+    ERROR:
+    {{ error?.error.error }} successfully
+</div>

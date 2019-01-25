@@ -1,0 +1,41 @@
+{
+    "ACCEPT": "Aceptar",
+    "CANCEL": "Cancelar",
+    "EDIT": "Editar",
+    "SAVE": "Guardar",
+    "SEND": "Enviar",
+    "DELETE": "Eliminar",
+    "MENU": {
+        "LISTAR": "Listar",
+        "MOSTRAR": "Mostrar",
+        "CREAR": "Formulario de creación",
+        "EDITAR": "Formulario de edición",
+        "BUSQUEDA": "Formulario de búsqueda"
+    },
+    "HOME": {
+        "TITLE": "Inicio",
+        "LIST_HEADER": "propietarios",
+        "LIST_TOTAL": "Total: {{total}}",
+        "NO_PETS": {
+            "TITLE": "No hay propietarios!",
+            "SUBTITLE": "Todavía no se han encontrado propietarios"
+        },
+        "SHARE": {
+            "MAIL_SUBJECT": "Información del propietario {{name}}"
+        },
+        "ALERT_DELETE": {
+            "TITLE": "Borrar propietario",
+            "MSG": "¿Desea eliminar el propietario seleccionado?"
+        }
+    },
+    "OWNER": {
+        "FIRSTNAME": "Nombre",
+        "LASTNAME": "Apellido",
+        "ADDRESS": "Dirección",
+        "CITY": "Ciudad",
+        "TELEPHONE": "Teléfono",
+        "HOMEPAGE": "Web principal",
+        "EMAIL": "Correo electrónico",
+        "BIRTHDAY": "Fecha de nacimiento"
+    }
+}

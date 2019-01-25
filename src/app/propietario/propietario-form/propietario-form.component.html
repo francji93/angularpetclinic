@@ -1,0 +1,54 @@
+<form #propietarioForm="ngForm">
+  <p>
+    <mat-form-field>
+
+      <input matInput type="text" placeholder="{{'OWNER.FIRSTNAME' | translate }}" name="firstName" [(ngModel)]="propietario?.firstName"
+        autocomplete="off" required>
+
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <input matInput type="text" placeholder="{{'OWNER.LASTNAME' | translate }}" name="lastName" [(ngModel)]="propietario?.lastName"
+        autocomplete="off" required>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <input matInput type="text" placeholder="{{'OWNER.ADDRESS' | translate }}" name="address" [(ngModel)]="propietario?.address"
+        autocomplete="off" required>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <input matInput type="text" placeholder="{{'OWNER.CITY' | translate }}" name="city" [(ngModel)]="propietario?.city"
+        autocomplete="off" required>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <input matInput type="text" placeholder="{{'OWNER.TELEPHONE' | translate }}" name="telephone" [(ngModel)]="propietario?.telephone"
+        autocomplete="off" required>
+
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+
+      <input matInput [matDatepicker]="birthDatePicker" [max]="today" placeholder="{{'OWNER.BIRTHDAY' | translate }}"
+        name="birthDay" [(ngModel)]="propietario?.birthDay" autocomplete="off" required readonly>
+
+      <mat-datepicker-toggle matSuffix [for]="birthDatePicker">
+      </mat-datepicker-toggle>
+
+      <mat-datepicker #birthDatePicker></mat-datepicker>
+
+    </mat-form-field>
+  </p>
+
+
+  <button type="button" mat-raised-button color="primary" (click)="submitForm(propietario)">{{
+    'SEND' | translate }}
+  </button>
+
+</form>

@@ -1,0 +1,41 @@
+{
+    "ACCEPT": "Acceptar",
+    "CANCEL": "Cancel·lar",
+    "EDIT": "Editar",
+    "SAVE": "Guardar",
+    "SEND": "Enviar",
+    "DELETE": "Eliminar",
+    "MENU": {
+        "LISTAR": "Llistar",
+        "MOSTRAR": "Mostrar",
+        "CREAR": "Formulari de creació",
+        "EDITAR": "Formulari d'edició",
+        "BUSQUEDA": "Formulari de cerca"
+    },
+    "HOME": {
+        "TITLE": "Inici",
+        "LIST_HEADER": "Mascotes",
+        "LIST_TOTAL": "Total: {{total}}",
+        "NO_PETS": {
+            "TITLE": "No hi han mascotes!",
+            "SUBTITLE": "Encara no s'han trobat mascotes"
+        },
+        "SHARE": {
+            "MAIL_SUBJECT": "Informació de la mascota {{name}}"
+        },
+        "ALERT_DELETE": {
+            "TITLE": "Borrar mascota",
+            "MSG": "Dessitja eliminar la mascota seleccionada?"
+        }
+    },
+    "OWNER": {
+        "FIRSTNAME": "Nom",
+        "LASTNAME": "Cognom",
+        "ADDRESS": "Direcció",
+        "CITY": "Ciutat",
+        "TELEPHONE": "Telefon",
+        "HOMEPAGE": "Web principal",
+        "EMAIL": "Correu electrónic",
+        "BIRTHDAY": "Dada de naixement"
+    }
+}
